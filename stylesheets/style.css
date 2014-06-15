@@ -37,10 +37,17 @@ ul {
   text-align: center;
   padding: 5px 5px 0px 5px;
   margin-bottom: 0px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 1.05em
 }
 
 #skill_list li {
-  background-color: #8A8C94;
+  background-color: #B5BA20;
   display: inline-block;
   border-radius: 3px 3px 0px 0px;
   padding: 5px 15px;
@@ -49,8 +56,11 @@ ul {
 }
 
 #skill_display_box {
+  font-family: 'Days One', sans-serif;
+  font-size: 1.3em;
+  color: black;
   background-color: #CFD3E3;
-  height: 200px;
+  height: 230px;
   border-radius: 0px 0px 5px 5px;
   text-align: center;
   vertical-align: center;
@@ -58,6 +68,16 @@ ul {
 
 #skill_display_box div {
   display: none;
+}
+
+#skill_display_box p {
+  display: inline-block;
+}
+
+
+#skill_display_box p span {
+  display: block;
+  font-style: italic;
 }
 
 #skill_display_box .active_tab {
@@ -74,6 +94,21 @@ ul {
 #education {
   margin-bottom: 0px;
   padding-bottom: 20px
+}
+
+#d3svg {
+  height: 175px;
+}
+
+.orm {
+  font-size: 3em;
+  margin: 20px;
+}
+
+#mongoose {
+  font-weight: 100;
+  font-family: sans-serif;
+  letter-spacing: -7px;
 }
 
 .left {
