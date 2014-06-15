@@ -32,6 +32,38 @@ ul {
   letter-spacing: 2px;
 }
 
+#skill_list {
+  background-color: #616369;
+  text-align: center;
+  padding: 5px 5px 0px 5px;
+  margin-bottom: 0px;
+}
+
+#skill_list li {
+  background-color: #8A8C94;
+  display: inline-block;
+  border-radius: 3px 3px 0px 0px;
+  padding: 5px 15px;
+  color: black;
+  cursor: pointer;
+}
+
+#skill_display_box {
+  background-color: #CFD3E3;
+  height: 200px;
+  border-radius: 0px 0px 5px 5px;
+  text-align: center;
+  vertical-align: center;
+}
+
+#skill_display_box div {
+  display: none;
+}
+
+#skill_display_box .active_tab {
+  display: block;
+}
+
 #details {
   padding-top: 20px;
   text-align: right;
@@ -72,16 +104,4 @@ ul {
 
 .light {
   font-weight: 100;
-}
-
-.ui-tabs-nav li {
-  text-align: center;
-}
-
-.ui-tabs-anchor {
-  font-size: 0.9em;
-  letter-spacing: -0.5px;
-}
-.ui-tabs-panel {
-  text-align: center;
 }
