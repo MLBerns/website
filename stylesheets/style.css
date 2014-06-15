@@ -1,0 +1,87 @@
+body {
+  margin: 0px;
+  background-color: #313236;
+  color: white;
+  font-family: arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #CEDE3E;
+}
+
+a:hover {
+  color: orange;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 30px
+}
+
+#container {
+  margin: auto;
+  width: 900px;
+  padding: 0px 25px;
+}
+
+#name {
+  margin: 0px;
+  padding-top: 20px;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+}
+
+#details {
+  padding-top: 20px;
+  text-align: right;
+  margin-top: 0px;
+  font-size: 1em;
+}
+
+#education {
+  margin-bottom: 0px;
+  padding-bottom: 20px
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.content {
+  clear: both;
+}
+
+.section_header {
+  margin-bottom: 0px;
+}
+
+.project {
+  margin: 15px 0px;
+  padding-left: 30px;
+}
+
+.experience {
+  margin: 15px 0px;
+  padding-left: 30px;
+}
+
+.light {
+  font-weight: 100;
+}
+
+.ui-tabs-nav li {
+  text-align: center;
+}
+
+.ui-tabs-anchor {
+  font-size: 0.9em;
+  letter-spacing: -0.5px;
+}
+.ui-tabs-panel {
+  text-align: center;
+}
