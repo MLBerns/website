@@ -28,10 +28,20 @@ ul {
 #name {
   margin: 0px;
   padding-top: 20px;
-  font-size: 1.5em;
-  letter-spacing: 2px;
+  font-size: 2em;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  font-weight: 100;
 }
 
+#name::first-letter{
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.content {
+  padding-top: 5px;
+}
 #skill_list {
   background-color: #616369;
   text-align: center;
@@ -47,7 +57,14 @@ ul {
 }
 
 #skill_list li {
-  background-color: #B5BA20;
+  background-color: #DEE344;
+background: -moz-linear-gradient(top, #DEE344 0%, #ed9017 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#DEE344), color-stop(100%,#ed9017)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #DEE344 0%,#ed9017 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #DEE344 0%,#ed9017 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #DEE344 0%,#ed9017 100%); /* IE10+ */
+background: linear-gradient(to bottom, #DEE344 0%,#ed9017 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#DEE344', endColorstr='#ed9017',GradientType=0 ); /* IE6-9 */
   display: inline-block;
   border-radius: 3px 3px 0px 0px;
   padding: 5px 15px;
@@ -55,8 +72,15 @@ ul {
   cursor: pointer;
 }
 
+#skill_list .selected {
+  box-shadow: 0px 0px 10px 0px black;
+  z-index: -10;
+}
+
 #skill_display_box {
   font-family: 'Days One', sans-serif;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
   font-size: 1.3em;
   color: black;
   background-color: #CFD3E3;
@@ -111,6 +135,10 @@ ul {
   letter-spacing: -7px;
 }
 
+#soft_skills {
+  padding-top: 70px;
+}
+
 .left {
   float: left;
 }
@@ -137,6 +165,15 @@ ul {
   padding-left: 30px;
 }
 
-.light {
-  font-weight: 100;
+.large-pad {
+  padding: 0px 80px;
+  padding-bottom: 5px;
+}
+
+.medium-pad {
+  padding: 0px 45px;
+}
+
+.small-pad {
+  padding: 0px 10px;
 }
